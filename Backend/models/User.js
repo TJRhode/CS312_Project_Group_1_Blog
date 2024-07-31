@@ -8,4 +8,4 @@ const UserSchema = new mongoose.Schema({
   posts: [{ type: mongoose.Schema.Types.ObjectId, ref: 'BlogPost' }],
 });
 
-export default UserSchema;
+module.exports = mongoose.model('User', UserSchema);
