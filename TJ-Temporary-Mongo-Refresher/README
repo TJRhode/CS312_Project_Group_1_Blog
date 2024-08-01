@@ -1,0 +1,4 @@
+Temporary test file
+
+Due to difficulties getting Richard's code to work on my end, I threw together a basic javascript file
+with the goal of being able to test functionality with a file that compiles and could hopefully connect with the cluster I made.
